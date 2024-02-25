@@ -112,7 +112,19 @@ nav a {
     max-width: 500px;
 }
 
+#second-btn{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+border: 1px solid #FD6E0A;
+margin-left: 20px;
+}
+
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 
@@ -121,4 +133,144 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+font-size: 20px;
+font-weight: 400;
+color: #757575;
+margin-bottom: 0;
+}
+
+.info-text{
+    color: #474747;
+font-size: 20px;
+font-weight: 700;
+margin-top: 10px;
+}
+
+#what.i-do{
+    padding: 30px 150px;
+}
+
+/* skill-style */
+
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px;
+  
+    padding: 30px;
+}
+.skill-img{
+   margin-bottom: 0;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.skill-text{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+ /* resume section */
+.resume-section{
+    margin-top: 200px;
+}
+
+ .resume-element{
+    display: flex;
+    gap: 50px;
+    
+ }
+.element-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+ .content-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 0;
+margin-top: 0;
+ }
+
+ .content-sub{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 0;
+ }
+
+ .content-text{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+ }
+
+.line{
+    margin: 30px 0;
+    /* width: 550px;  */
+}
+
+.download-cv{
+   text-align: center;
+   margin-top: 50px;
+}
+.download-cv i{
+    margin-right: 5px;
+}
+
+/* footer styles */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background: #FFF;
+border: none;
+width: 100%;
 }
