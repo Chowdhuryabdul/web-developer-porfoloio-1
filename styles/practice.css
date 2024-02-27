@@ -1,0 +1,287 @@
+/* Shared css  */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+padding: 18px 35px;
+border: 0;
+color: #fff;
+font-size: 20px;
+font-weight: 700;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-text{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* headers style  */
+
+header{
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+    align-items: center;
+}
+
+.nav-title{
+    color:  #181818;
+font-size: 45px;
+font-weight: 800;
+}
+
+span{
+    color: #FD6E0A; 
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    color: #474747;
+font-size: 20px;
+font-weight: 400;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.banner-content{
+    max-width: 550px;
+    padding: 100px 0 200px 230px;
+    
+}
+
+.banner-content-title{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+}
+
+.banner-content-sub{
+    color: #181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.banner-text{
+    color:  #757575;
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.banner-img{
+    padding-right: 30px;
+   
+}
+
+/* about me section  */
+
+.about-me{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 150px;
+}
+
+.about-me-content-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    
+}
+
+.content-title{
+    color: #757575;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 0;
+}
+
+.content-text{
+    color: #474747;
+font-size: 20px;
+font-weight: 700;
+margin-top: 10px;
+}
+
+
+/* what I do */
+
+.what-i-do{
+    margin-top: 150px;
+}
+.what-do-content-container{
+    display: flex;
+    gap: 24px;
+}
+
+.what-do-content{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+
+.what-do-img{
+    margin-bottom: 0;
+    width: 44px;
+height: 44px;
+}
+
+.what-do-title{
+    color: #181818;
+font-size: 20px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+.what-do-text{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+}
+
+/* summary section| */
+
+.resume{
+    margin-top: 150px;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.resume-content-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+.resume-content-sub{
+    color:  #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 0;
+}
+
+.resume-text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:20px;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer */
+
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 150px;
+    gap: 100px;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-text{
+    color: #474747;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 0;
+}
+
+.footer-icon img{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="Email"], textarea  {
+    display: block;
+    padding: 18px 30px;
+    border: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+    
+}
+
